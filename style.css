@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    
+}
+h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+.container{
+    position: relative;
+    height: 80vh;
+    width: 60vw;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.box1{
+    height: 10vh;
+    width: 20vw;
+    border: 2px solid black;
+    position: absolute;
+    transform: translate(30%, 80%);
+    background-color: aqua;
+}
+.box1:hover{
+    transform: skew(30deg, 20deg);
+
+}
+
+.box2{
+    height: 10vh;
+    width: 20vw;
+    background-color: blueviolet;
+    border: 2px solid black;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: perspective(10px)  rotateY(2.2deg);
+}
+
+.box3{
+    height: 10vh;
+    width: 20vw;
+    background-color: brown;
+    border: 2px solid black;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform:  skewX(70deg);;
+
+}
